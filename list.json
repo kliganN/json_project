@@ -470,8 +470,8 @@
         {
             "name": "Донецкая Народная Республика",
             "region": "80",
-            "timezoneId": "Europe/Moscow",
-            "timezoneOffset": 10800
+            "timezoneId": "Europe/Kaliningrad",
+            "timezoneOffset": 7200
         },
         {
             "name": "Луганская Народная Республика",
