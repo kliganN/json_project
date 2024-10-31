@@ -1,88 +1,530 @@
-Республика Адыгея	01
-Республика Башкортостан	02
-Республика Бурятия	03
-Республика Алтай	04
-Республика Дагестан	05
-Республика Ингушетия	06
-Кабардино-Балкарская Республика	07
-Республика Калмыкия	08
-Республика Карачаево-Черкессия	09
-Республика Карелия	10
-Республика Коми	11
-Республика Марий Эл	12
-Республика Мордовия	13
-Республика Саха (Якутия)	14
-Республика Северная Осетия-Алания	15
-Республика Татарстан	16
-Республика Тыва	17
-Удмуртская Республика	18
-Республика Хакасия	19
-Чувашская Республика	21
-Алтайский край	22
-Краснодарский край	23
-Красноярский край	24
-Приморский край	25
-Ставропольский край	26
-Хабаровский край	27
-Амурская область	28
-Архангельская область	29
-Астраханская область	30
-Белгородская область	31
-Брянская область	32
-Владимирская область	33
-Волгоградская область	34
-Вологодская область	35
-Воронежская область	36
-Ивановская область	37
-Иркутская область	38
-Калининградская область	39
-Калужская область	40
-Камчатский край	41
-Кемеровская область	42
-Кировская область	43
-Костромская область	44
-Курганская область	45
-Курская область	46
-Ленинградская область	47
-Липецкая область	48
-Магаданская область	49
-Московская область	50
-Мурманская область	51
-Нижегородская область	52
-Новгородская область	53
-Новосибирская область	54
-Омская область	55
-Оренбургская область	56
-Орловская область	57
-Пензенская область	58
-Пермский край	59
-Псковская область	60
-Ростовская область	61
-Рязанская область	62
-Самарская область	63
-Саратовская область	64
-Сахалинская область	65
-Свердловская область	66
-Смоленская область	67
-Тамбовская область	68
-Тверская область	69
-Томская область	70
-Тульская область	71
-Тюменская область	72
-Ульяновская область	73
-Челябинская область	74
-Забайкальский край	75
-Ярославская область	76
-Город Москва	77
-Город Санкт-Петербург	78
-Еврейская автономная область	79
-Донецкая Народная Республика	80
-Луганская Народная Республика	81
-Автономная Республика Крым	82
-Ненецкий автономный округ	83
-Херсонская область	84
-Запорожская область	85
-Ханты-Мансийский автономный округ - Югра	86
-Чукотский автономный округ	87
-Ямало-Ненецкий автономный округ	89
-Чеченская Республика	95
+[
+        {
+            "name": "Республика Адыгея",
+            "region": "01",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Башкортостан",
+            "region": "02",
+            "timezoneId": "Asia/Yekaterinburg",
+            "timezoneOffset": 18000
+        },
+        {
+            "name": "Республика Бурятия",
+            "region": "03",
+            "timezoneId": "Asia/Irkutsk",
+            "timezoneOffset": 28800
+        },
+        {
+            "name": "Республика Алтай",
+            "region": "04",
+            "timezoneId": "Asia/Barnaul",
+            "timezoneOffset": 25200
+        },
+        {
+            "name": "Республика Дагестан",
+            "region": "05",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Ингушетия",
+            "region": "06",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Кабардино-Балкарская Республика",
+            "region": "07",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Калмыкия",
+            "region": "08",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Карачаево-Черкессия",
+            "region": "09",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Карелия",
+            "region": "10",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Коми",
+            "region": "11",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Марий Эл",
+            "region": "12",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Мордовия",
+            "region": "13",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Саха (Якутия)",
+            "region": "14",
+            "timezoneId": "Asia/Yakutsk",
+            "timezoneOffset": 32400
+        },
+        {
+            "name": "Республика Северная Осетия-Алания",
+            "region": "15",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Татарстан",
+            "region": "16",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Республика Тыва",
+            "region": "17",
+            "timezoneId": "Asia/Krasnoyarsk",
+            "timezoneOffset": 25200
+        },
+        {
+            "name": "Удмуртская Республика",
+            "region": "18",
+            "timezoneId": "Europe/Samara",
+            "timezoneOffset": 14400
+        },
+        {
+            "name": "Республика Хакасия",
+            "region": "19",
+            "timezoneId": "Asia/Krasnoyarsk",
+            "timezoneOffset": 25200
+        },
+        {
+            "name": "Чувашская Республика",
+            "region": "21",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Алтайский край",
+            "region": "22",
+            "timezoneId": "Asia/Barnaul",
+            "timezoneOffset": 25200
+        },
+        {
+            "name": "Краснодарский край",
+            "region": "23",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Красноярский край",
+            "region": "24",
+            "timezoneId": "Asia/Krasnoyarsk",
+            "timezoneOffset": 25200
+        },
+        {
+            "name": "Приморский край",
+            "region": "25",
+            "timezoneId": "Asia/Vladivostok",
+            "timezoneOffset": 36000
+        },
+        {
+            "name": "Ставропольский край",
+            "region": "26",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Хабаровский край",
+            "region": "27",
+            "timezoneId": "Asia/Vladivostok",
+            "timezoneOffset": 36000
+        },
+        {
+            "name": "Амурская область",
+            "region": "28",
+            "timezoneId": "Asia/Yakutsk",
+            "timezoneOffset": 32400
+        },
+        {
+            "name": "Архангельская область",
+            "region": "29",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Астраханская область",
+            "region": "30",
+            "timezoneId": "Europe/Samara",
+            "timezoneOffset": 14400
+        },
+        {
+            "name": "Белгородская область",
+            "region": "31",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Брянская область",
+            "region": "32",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Владимирская область",
+            "region": "33",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Волгоградская область",
+            "region": "34",
+            "timezoneId": "Europe/Volgograd",
+            "timezoneOffset": 14400
+        },
+        {
+            "name": "Вологодская область",
+            "region": "35",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Воронежская область",
+            "region": "36",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Ивановская область",
+            "region": "37",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Иркутская область",
+            "region": "38",
+            "timezoneId": "Asia/Irkutsk",
+            "timezoneOffset": 28800
+        },
+        {
+            "name": "Калининградская область",
+            "region": "39",
+            "timezoneId": "Europe/Kaliningrad",
+            "timezoneOffset": 7200
+        },
+        {
+            "name": "Калужская область",
+            "region": "40",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Камчатский край",
+            "region": "41",
+            "timezoneId": "Asia/Kamchatka",
+            "timezoneOffset": 43200
+        },
+        {
+            "name": "Кемеровская область",
+            "region": "42",
+            "timezoneId": "Asia/Novokuznetsk",
+            "timezoneOffset": 25200
+        },
+        {
+            "name": "Кировская область",
+            "region": "43",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Костромская область",
+            "region": "44",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Курганская область",
+            "region": "45",
+            "timezoneId": "Asia/Yekaterinburg",
+            "timezoneOffset": 18000
+        },
+        {
+            "name": "Курская область",
+            "region": "46",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Ленинградская область",
+            "region": "47",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Липецкая область",
+            "region": "48",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Магаданская область",
+            "region": "49",
+            "timezoneId": "Asia/Magadan",
+            "timezoneOffset": 39600
+        },
+        {
+            "name": "Московская область",
+            "region": "50",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Мурманская область",
+            "region": "51",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Нижегородская область",
+            "region": "52",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Новгородская область",
+            "region": "53",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Новосибирская область",
+            "region": "54",
+            "timezoneId": "Asia/Novosibirsk",
+            "timezoneOffset": 25200
+        },
+        {
+            "name": "Омская область",
+            "region": "55",
+            "timezoneId": "Asia/Omsk",
+            "timezoneOffset": 21600
+        },
+        {
+            "name": "Оренбургская область",
+            "region": "56",
+            "timezoneId": "Asia/Yekaterinburg",
+            "timezoneOffset": 18000
+        },
+        {
+            "name": "Орловская область",
+            "region": "57",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Пензенская область",
+            "region": "58",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Пермский край",
+            "region": "59",
+            "timezoneId": "Asia/Yekaterinburg",
+            "timezoneOffset": 18000
+        },
+        {
+            "name": "Псковская область",
+            "region": "60",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Ростовская область",
+            "region": "61",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Рязанская область",
+            "region": "62",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Самарская область",
+            "region": "63",
+            "timezoneId": "Europe/Samara",
+            "timezoneOffset": 14400
+        },
+        {
+            "name": "Саратовская область",
+            "region": "64",
+            "timezoneId": "Europe/Saratov",
+            "timezoneOffset": 14400
+        },
+        {
+            "name": "Сахалинская область",
+            "region": "65",
+            "timezoneId": "Asia/Sakhalin",
+            "timezoneOffset": 39600
+        },
+        {
+            "name": "Свердловская область",
+            "region": "66",
+            "timezoneId": "Asia/Yekaterinburg",
+            "timezoneOffset": 18000
+        },
+        {
+            "name": "Смоленская область",
+            "region": "67",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Тамбовская область",
+            "region": "68",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Тверская область",
+            "region": "69",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Томская область",
+            "region": "70",
+            "timezoneId": "Asia/Tomsk",
+            "timezoneOffset": 25200
+        },
+        {
+            "name": "Тульская область",
+            "region": "71",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Тюменская область",
+            "region": "72",
+            "timezoneId": "Asia/Yekaterinburg",
+            "timezoneOffset": 18000
+        },
+        {
+            "name": "Ульяновская область",
+            "region": "73",
+            "timezoneId": "Europe/Ulyanovsk",
+            "timezoneOffset": 14400
+        },
+        {
+            "name": "Челябинская область",
+            "region": "74",
+            "timezoneId": "Asia/Yekaterinburg",
+            "timezoneOffset": 18000
+        },
+        {
+            "name": "Забайкальский край",
+            "region": "75",
+            "timezoneId": "Asia/Chita",
+            "timezoneOffset": 32400
+        },
+        {
+            "name": "Ярославская область",
+            "region": "76",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Город Москва",
+            "region": "77",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Город Санкт-Петербург",
+            "region": "78",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Еврейская автономная область",
+            "region": "79",
+            "timezoneId": "Asia/Vladivostok",
+            "timezoneOffset": 36000
+        },
+        {
+            "name": "Донецкая Народная Республика",
+            "region": "80",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Луганская Народная Республика",
+            "region": "81",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Автономная Республика Крым",
+            "region": "82",
+            "timezoneId": "Europe/Simferopol",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Ненецкий автономный округ",
+            "region": "83",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Херсонская область",
+            "region": "84",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Запорожская область",
+            "region": "85",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        },
+        {
+            "name": "Ханты-Мансийский автономный округ - Югра",
+            "region": "86",
+            "timezoneId": "Asia/Yekaterinburg",
+            "timezoneOffset": 18000
+        },
+        {
+            "name": "Чукотский автономный округ",
+            "region": "87",
+            "timezoneId": "Asia/Anadyr",
+            "timezoneOffset": 43200
+        },
+        {
+            "name": "Ямало-Ненецкий автономный округ",
+            "region": "89",
+            "timezoneId": "Asia/Yekaterinburg",
+            "timezoneOffset": 18000
+        },
+        {
+            "name": "Чеченская Республика",
+            "region": "95",
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
+        }
+]
