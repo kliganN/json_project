@@ -122,7 +122,7 @@
         {
             "name": "Алтайский край",
             "region": "22",
-            "timezoneId": "Asia/Barnaul",
+            "timezoneId": "Asia/Krasnoyarsk",
             "timezoneOffset": 25200
         },
         {
@@ -194,8 +194,8 @@
         {
             "name": "Волгоградская область",
             "region": "34",
-            "timezoneId": "Europe/Volgograd",
-            "timezoneOffset": 14400
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
         },
         {
             "name": "Вологодская область",
@@ -242,7 +242,7 @@
         {
             "name": "Кемеровская область",
             "region": "42",
-            "timezoneId": "Asia/Novokuznetsk",
+            "timezoneId": "Asia/Krasnoyarsk",
             "timezoneOffset": 25200
         },
         {
@@ -314,7 +314,7 @@
         {
             "name": "Новосибирская область",
             "region": "54",
-            "timezoneId": "Asia/Novosibirsk",
+            "timezoneId": "Asia/Krasnoyarsk",
             "timezoneOffset": 25200
         },
         {
@@ -374,13 +374,13 @@
         {
             "name": "Саратовская область",
             "region": "64",
-            "timezoneId": "Europe/Saratov",
+            "timezoneId": "Europe/Samara",
             "timezoneOffset": 14400
         },
         {
             "name": "Сахалинская область",
             "region": "65",
-            "timezoneId": "Asia/Sakhalin",
+            "timezoneId": "Asia/Magadan",
             "timezoneOffset": 39600
         },
         {
@@ -410,7 +410,7 @@
         {
             "name": "Томская область",
             "region": "70",
-            "timezoneId": "Asia/Tomsk",
+            "timezoneId": "Asia/Krasnoyarsk",
             "timezoneOffset": 25200
         },
         {
@@ -428,7 +428,7 @@
         {
             "name": "Ульяновская область",
             "region": "73",
-            "timezoneId": "Europe/Ulyanovsk",
+            "timezoneId": "Europe/Samara",
             "timezoneOffset": 14400
         },
         {
@@ -440,7 +440,7 @@
         {
             "name": "Забайкальский край",
             "region": "75",
-            "timezoneId": "Asia/Chita",
+            "timezoneId": "Asia/Yakutsk",
             "timezoneOffset": 32400
         },
         {
@@ -470,8 +470,8 @@
         {
             "name": "Донецкая Народная Республика",
             "region": "80",
-            "timezoneId": "Europe/Kaliningrad",
-            "timezoneOffset": 7200
+            "timezoneId": "Europe/Moscow",
+            "timezoneOffset": 10800
         },
         {
             "name": "Луганская Народная Республика",
@@ -482,7 +482,7 @@
         {
             "name": "Автономная Республика Крым",
             "region": "82",
-            "timezoneId": "Europe/Simferopol",
+            "timezoneId": "Europe/Moscow",
             "timezoneOffset": 10800
         },
         {
