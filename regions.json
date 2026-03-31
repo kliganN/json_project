@@ -48,7 +48,7 @@
             "timezoneOffset": 10800
         },
         {
-            "name": "Республика Карачаево-Черкессия",
+            "name": "Карачаево-Черкесская Республика",
             "region": "09",
             "timezoneId": "Europe/Moscow",
             "timezoneOffset": 10800
@@ -84,7 +84,7 @@
             "timezoneOffset": 32400
         },
         {
-            "name": "Республика Северная Осетия-Алания",
+            "name": "Республика Северная Осетия - Алания",
             "region": "15",
             "timezoneId": "Europe/Moscow",
             "timezoneOffset": 10800
@@ -122,7 +122,7 @@
         {
             "name": "Алтайский край",
             "region": "22",
-            "timezoneId": "Asia/Krasnoyarsk",
+            "timezoneId": "Asia/Barnaul",
             "timezoneOffset": 25200
         },
         {
@@ -170,7 +170,7 @@
         {
             "name": "Астраханская область",
             "region": "30",
-            "timezoneId": "Europe/Samara",
+            "timezoneId": "Europe/Astrakhan",
             "timezoneOffset": 14400
         },
         {
@@ -194,7 +194,7 @@
         {
             "name": "Волгоградская область",
             "region": "34",
-            "timezoneId": "Europe/Moscow",
+            "timezoneId": "Europe/Volgograd",
             "timezoneOffset": 10800
         },
         {
@@ -240,15 +240,15 @@
             "timezoneOffset": 43200
         },
         {
-            "name": "Кемеровская область",
+            "name": "Кемеровская область - Кузбасс",
             "region": "42",
-            "timezoneId": "Asia/Krasnoyarsk",
+            "timezoneId": "Asia/Novokuznetsk",
             "timezoneOffset": 25200
         },
         {
             "name": "Кировская область",
             "region": "43",
-            "timezoneId": "Europe/Moscow",
+            "timezoneId": "Europe/Kirov",
             "timezoneOffset": 10800
         },
         {
@@ -314,7 +314,7 @@
         {
             "name": "Новосибирская область",
             "region": "54",
-            "timezoneId": "Asia/Krasnoyarsk",
+            "timezoneId": "Asia/Novosibirsk",
             "timezoneOffset": 25200
         },
         {
@@ -374,13 +374,13 @@
         {
             "name": "Саратовская область",
             "region": "64",
-            "timezoneId": "Europe/Samara",
+            "timezoneId": "Europe/Saratov",
             "timezoneOffset": 14400
         },
         {
             "name": "Сахалинская область",
             "region": "65",
-            "timezoneId": "Asia/Magadan",
+            "timezoneId": "Asia/Sakhalin",
             "timezoneOffset": 39600
         },
         {
@@ -410,7 +410,7 @@
         {
             "name": "Томская область",
             "region": "70",
-            "timezoneId": "Asia/Krasnoyarsk",
+            "timezoneId": "Asia/Tomsk",
             "timezoneOffset": 25200
         },
         {
@@ -428,7 +428,7 @@
         {
             "name": "Ульяновская область",
             "region": "73",
-            "timezoneId": "Europe/Samara",
+            "timezoneId": "Europe/Ulyanovsk",
             "timezoneOffset": 14400
         },
         {
@@ -440,7 +440,7 @@
         {
             "name": "Забайкальский край",
             "region": "75",
-            "timezoneId": "Asia/Yakutsk",
+            "timezoneId": "Asia/Chita",
             "timezoneOffset": 32400
         },
         {
@@ -480,9 +480,9 @@
             "timezoneOffset": 10800
         },
         {
-            "name": "Автономная Республика Крым",
+            "name": "Республика Крым",
             "region": "82",
-            "timezoneId": "Europe/Moscow",
+            "timezoneId": "Europe/Simferopol",
             "timezoneOffset": 10800
         },
         {
@@ -520,6 +520,12 @@
             "region": "89",
             "timezoneId": "Asia/Yekaterinburg",
             "timezoneOffset": 18000
+        },
+        {
+            "name": "Город Севастополь",
+            "region": "92",
+            "timezoneId": "Europe/Simferopol",
+            "timezoneOffset": 10800
         },
         {
             "name": "Чеченская Республика",
